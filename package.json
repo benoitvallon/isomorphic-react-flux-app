@@ -5,7 +5,7 @@
   "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "./node_modules/.bin/nodemon -e js,jsx server"
+    "dev": "./node_modules/.bin/nodemon --ignore build/ -e js,jsx server & ./node_modules/.bin/webpack --watch"
   },
   "repository": {
     "type": "git",
@@ -18,10 +18,13 @@
   },
   "homepage": "https://github.com/benoitvallon/isomorphic-react-flux-app",
   "devDependencies": {
-    "nodemon": "^1.2.1"
+    "jsx-loader": "^0.12.2",
+    "nodemon": "^1.2.1",
+    "webpack": "^1.4.14"
   },
   "dependencies": {
     "express": "^4.10.6",
+    "express-state": "^1.2.0",
     "flux-router-component": "^0.5.1",
     "fluxible-app": "^0.1.2",
     "fluxible-plugin-routr": "^0.3.0",
