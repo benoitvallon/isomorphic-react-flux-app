@@ -22,6 +22,9 @@
   },
   "dependencies": {
     "express": "^4.10.6",
+    "flux-router-component": "^0.5.1",
+    "fluxible-app": "^0.1.2",
+    "fluxible-plugin-routr": "^0.3.0",
     "node-jsx": "^0.12.4",
     "react": "^0.12.2"
   }
