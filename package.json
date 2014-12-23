@@ -1,0 +1,28 @@
+{
+  "name": "isomorphic-react-flux-app",
+  "version": "1.0.0",
+  "description": "Isomorphic React And Flux App",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "./node_modules/.bin/nodemon -e js,jsx server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/benoitvallon/isomorphic-react-flux-app.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/benoitvallon/isomorphic-react-flux-app/issues"
+  },
+  "homepage": "https://github.com/benoitvallon/isomorphic-react-flux-app",
+  "devDependencies": {
+    "nodemon": "^1.2.1"
+  },
+  "dependencies": {
+    "express": "^4.10.6",
+    "node-jsx": "^0.12.4",
+    "react": "^0.12.2"
+  }
+}
