@@ -6,7 +6,7 @@ var About = require('./About.jsx');
 var Nav = require('./Nav.jsx');
 var ApplicationStore = require('../stores/ApplicationStore');
 var RouterMixin = require('flux-router-component').RouterMixin;
-var StoreMixin = require('fluxible-app').StoreMixin;
+var StoreMixin = require('fluxible').StoreMixin;
 
 var Application = React.createClass({
   mixins: [RouterMixin, StoreMixin],
